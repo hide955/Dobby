@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
 project(Dobby)
 enable_language(ASM)
+set(CMAKE_ASM_FLAGS "${CMAKE_ASM_FLAGS} -x assembler-with-cpp")
 
 include(cmake/Util.cmake)
 include(cmake/Macros.cmake)

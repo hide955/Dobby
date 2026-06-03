@@ -8,6 +8,7 @@
 #include <time.h>
 
 #if defined(__linux__) || defined(__APPLE__)
+#include <sys/time.h>
 #include <unistd.h>
 #include <syslog.h>
 #include <errno.h>
